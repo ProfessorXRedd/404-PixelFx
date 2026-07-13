@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — 404 PixelFx</title>
+<meta name="description" content="Contact 404 PixelFx to book a repair, request a quote, or ask a question.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="../bootstrap/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../bootstrap-icons/bootstrap-icons.css">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="icon" href="../assets/images/iconedlogo.png" type="image/png">
+</head>
+<body>
+
+<header class="navbar-fx">
+  <div class="container-xl">
+    <a href="../index.html" class="brand-fx"><img src="../assets/images/iconedlogo.png" alt="404 PixelFx logo"> 404 PixelFx</a>
+    <nav class="nav-links-fx" id="navLinks">
+      <a href="../index.html" data-nav="index.html">Home</a>
+      <div class="nav-dropdown-fx">
+        <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+          Resources <i class="bi bi-chevron-down"></i>
+        </button>
+        <div class="nav-dropdown-menu">
+          <div class="nav-mega-fx">
+            <div class="nav-mega-col">
+              <a href="about.html" data-nav="about.html"><span class="mega-label">Meet the team</span><span class="mega-title">About</span></a>
+              <a href="services.html" data-nav="services.html"><span class="mega-label">What we repair</span><span class="mega-title">Services</span></a>
+              <a href="contact.html" data-nav="contact.html"><span class="mega-label">Contact</span><span class="mega-title">Get in touch</span></a>
+            </div>
+            <div class="nav-mega-col">
+              <a href="reviews.html" data-nav="reviews.html"><span class="mega-label">Customer stories</span><span class="mega-title">Reviews</span></a>
+              <a href="faq.html" data-nav="faq.html"><span class="mega-label">Common questions</span><span class="mega-title">FAQ</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="tips.html" data-nav="tips.html">Tips</a>
+      <a href="pricing.html" data-nav="pricing.html">Pricing</a>
+      <div class="mobile-nav-logo"><img src="../assets/images/logo.png" alt="404 PixelFx"></div>
+    </nav>
+    <div class="d-flex align-items-center gap-2">
+      <a href="tel:+639171234567" class="btn-fx btn-outline-fx d-none d-lg-inline-flex"><i class="bi bi-telephone"></i> Call Us</a>
+      <a href="#contactForm" class="btn-fx btn-primary-fx d-none d-lg-inline-flex">Book Service</a>
+      <button class="navbar-toggler-fx" aria-label="Toggle menu" aria-expanded="false"><i class="bi bi-list"></i></button>
+    </div>
+  </div>
+  <div class="scroll-progress-fx"></div>
+</header>
+
+<section class="page-hero">
+  <div class="hero-mesh"></div>
+  <div class="container-xl">
+    <span class="eyebrow reveal in-view"><span class="dot"></span> Contact</span>
+    <h1 class="reveal in-view reveal-delay-1">Let's get your device fixed</h1>
+    <p class="reveal in-view reveal-delay-2">Send us a message, call the shop, or drop by — whichever's easiest for you.</p>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container-xl">
+    <div class="row g-5">
+
+      <div class="col-lg-5 reveal">
+        <div class="contact-info-stack">
+        <div class="card-fx" style="margin-bottom:24px;">
+          <div class="contact-info-item">
+            <div class="icon-badge"><i class="bi bi-telephone"></i></div>
+            <div><h4>Phone</h4><p>+63 917 123 4567</p></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="icon-badge"><i class="bi bi-envelope"></i></div>
+            <div><h4>Email</h4><p>support@404pixelfx.com</p></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="icon-badge"><i class="bi bi-geo-alt"></i></div>
+            <div><h4>Location</h4><p>Zone 2, Tapas Compound, 23, Balatas, Naga City, 4400 Camarines Sur</p></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="icon-badge"><i class="bi bi-clock"></i></div>
+            <div><h4>Business hours</h4><p>Mon–Sat, 9:00 AM – 7:00 PM</p></div>
+          </div>
+        </div>
+
+        <div class="card-fx glass-fx">
+          <h4 style="margin-bottom:10px;">Follow us</h4>
+          <p style="font-size:14px;">Repair tips, before/afters, and shop updates.</p>
+          <div class="social-row-fx">
+          <a href="https:\\fb.com" target="_blank" class="social-fx" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https:\\instagram.com" class="social-fx" target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https:\\x.com" class="social-fx" target="_blank" aria-label="X / Twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="https:\\tiktok.com" class="social-fx" target="_blank" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-lg-7 reveal reveal-delay-1">
+        <form class="form-fx needs-validation card-fx" id="contactForm" novalidate>
+          <h3 style="margin-bottom:20px;">Send a message</h3>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="cName">Full name</label>
+              <input type="text" class="form-control" id="cName" required>
+              <div class="invalid-feedback">Please enter your name.</div>
+            </div>
+            <div class="col-md-6">
+              <label for="cPhone">Phone number</label>
+              <input type="tel" class="form-control" id="cPhone" required>
+              <div class="invalid-feedback">Please enter a phone number.</div>
+            </div>
+            <div class="col-md-6">
+              <label for="cEmail">Email address</label>
+              <input type="email" class="form-control" id="cEmail" required>
+              <div class="invalid-feedback">Please enter a valid email.</div>
+            </div>
+            <div class="col-md-6">
+              <label for="cSubject">Subject</label>
+              <select class="form-select" id="cSubject" required>
+                <option value="" selected disabled>Select a topic</option>
+                <option>Book a repair</option>
+                <option>Request a quote</option>
+                <option>General question</option>
+                <option>Home service inquiry</option>
+              </select>
+              <div class="invalid-feedback">Please select a topic.</div>
+            </div>
+            <div class="col-12">
+              <label for="cMessage">Message</label>
+              <textarea class="form-control" id="cMessage" rows="5" required></textarea>
+              <div class="invalid-feedback">Please enter a message.</div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn-fx btn-grad-fx btn-block-fx"><i class="bi bi-send"></i> Send Message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAP -->
+<section class="section-tight">
+  <div class="container-xl">
+    <div class="section-head center reveal">
+      <span class="eyebrow"><span class="dot"></span> Find us</span>
+      <h2>Visit the shop</h2>
+    </div>
+    <div class="map-frame-fx reveal">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242.3420743759828!2d123.20141845863408!3d13.62895534922401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a1f3278e1092a9%3A0xd8f7579188008059!2sDaren&#39;s%20Computer%20Repair%20Shop!5e0!3m2!1sen!2sph!4v1783536570378!5m2!1sen!2sph"
+        width="100%" height="380" style="border:0; display:block;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" title="404 PixelFx location map"></iframe>
+    </div>
+  </div>
+</section>
+ 
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer-fx">
+  <div class="container-xl">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <div class="footer-brand"><img src="../assets/images/iconedlogo.png" alt="404 PixelFx logo"> 404 PixelFx</div>
+        <p class="tag">Fast, reliable, and expert computer repair & technical support for homes and small businesses.</p>
+        <div class="social-row-fx">
+          <a href="https:\\fb.com" target="_blank" class="social-fx" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https:\\instagram.com" class="social-fx" target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https:\\x.com" class="social-fx" target="_blank" aria-label="X / Twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="https:\\tiktok.com" class="social-fx" target="_blank" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="col-6 col-lg-2 footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="../pages/about.html">About</a></li>
+          <li><a href="../pages/reviews.html">Reviews</a></li>
+          <li><a href="../pages/faq.html">FAQ</a></li>
+          <li><a href="../pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-3 footer-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="../pages/services.html">Hardware Upgrades</a></li>
+          <li><a href="../pages/services.html">Virus & Malware Removal</a></li>
+          <li><a href="../pages/services.html">PC Building</a></li>
+          <li><a href="../pages/services.html">Home Service Support</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 footer-col">
+        <h5>Get in touch</h5>
+        <ul>
+          <li><a href="tel:+639171234567"><i class="bi bi-telephone me-2"></i>+63 917 123 4567</a></li>
+          <li><a href="mailto:support@testmaoil.com"><i class="bi bi-envelope me-2"></i>support@404pixelfx.com</a></li>
+          <li><a href="../pages/contact.html"><i class="bi bi-geo-alt me-2"></i>Skibidi, Sahur, PH</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> 404 PixelFx. All rights reserved.</span>
+      <span>Designed with care for devices that deserve a second chance.</span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top-fx" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+
+<script src="../bootstrap/bootstrap.bundle.min.js"></script>
+<script src="../js/script.js"></script>
+</body>
+</html>
