@@ -139,6 +139,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   /* ---- Active nav link highlighting ---- */
   var currentFile = (window.location.pathname.split('/').pop() || 'index.html');
+  currentFile = currentFile.split('?')[0].split('#')[0];
+  if (currentFile.indexOf('.') === -1) currentFile += '.html'; /* handles hosts that serve clean URLs like /pages/about */
   document.querySelectorAll('.nav-links-fx a[data-nav]').forEach(function (link) {
     if (link.getAttribute('data-nav') === currentFile) {
       link.classList.add('active');
